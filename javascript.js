@@ -1,6 +1,22 @@
 
-function myFunction(){
-        alert('Test button was clicked');
+function myFunction(a){
+        switch(a) {
+                case 'Grow':
+                        Grow();
+                        break;
+                case 'Blue':
+                        Blue();
+                        break;
+                case 'Fade':
+                        Fade();
+                        break;
+                case 'Reset':
+                        Reset();
+                        break;
+                default:
+                        Reset();
+                        break;
+                };
 }
 
 function Grow(){
