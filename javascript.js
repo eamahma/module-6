@@ -1,16 +1,16 @@
 
 function myFunction(a){
         switch(a) {
-                case 'Grow':
+                case 'button1':
                         Grow();
                         break;
-                case 'Blue':
+                case 'button2':
                         Blue();
                         break;
-                case 'Fade':
+                case 'button3':
                         Fade();
                         break;
-                case 'Reset':
+                case 'button4':
                         Reset();
                         break;
                 default:
